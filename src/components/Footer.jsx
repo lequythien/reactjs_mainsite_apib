@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Main Information Section */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-6">
           {/* Company Details */}
-          <div className="text-sm text-[#1E1E1E] space-y-2 w-full lg:w-2/3">
+          <div className="text-sm text-[#1E1E1E] space-y-4 w-full lg:w-2/3">
             <h2 className="text-[15px] font-bold text-primaryNavy mb-2">
               CÔNG TY CỔ PHẦN MÔI GIỚI BẢO HIỂM AN PHÚC
             </h2>

@@ -64,7 +64,7 @@ const Navbar = () => {
 
           {/* Contact Button */}
           <button
-            className="mt-3 lg:mt-0 ml-0 lg:ml-4 bg-[#232862] font-extrabold text-white px-8 py-2 sm:py-2 lg:py-2 rounded-full hover:bg-blue-700 transition-all duration-200 text-xs sm:text-sm lg:text-base"
+            className="mt-3 lg:mt-0 ml-0 lg:ml-4 bg-[#232862] font-bold text-white px-8 py-2 sm:py-2 lg:py-2 rounded-full hover:bg-blue-700 transition-all duration-200 text-xs sm:text-sm lg:text-base"
             onClick={() => setIsOpen(false)}
           >
             LIÊN HỆ VỚI CHÚNG TÔI
