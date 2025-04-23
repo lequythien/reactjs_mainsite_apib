@@ -6,10 +6,9 @@ import Img2 from "../assets/images/img-2.jpg";
 const newsData = [
   {
     img: Img1,
-    title:
-      "Công ty cổ phần môi giới bảo hiểm An Phúc công bố Báo cáo tài chính đã kiểm toán",
+    title: "2024",
     update: "31/03/2025",
-    pdfFile: "baocaotaichinhdakiemtoanAnPhuc2024.pdf",
+    pdfFile: "baocaokiemtoanbothuyetminh.pdf",
   },
   {
     img: Img2,

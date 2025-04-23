@@ -11,10 +11,10 @@ import News from "./pages/News";
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div>
       <Navbar />
 
-      <main className="flex-grow">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
