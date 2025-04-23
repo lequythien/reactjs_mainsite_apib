@@ -31,7 +31,7 @@ const Navbar = () => {
         <nav
           className={`${
             isOpen ? "flex" : "hidden"
-          } lg:flex flex-col lg:flex-row gap-3 lg:gap-6 items-center absolute lg:static top-14 left-0 w-full lg:w-auto bg-white lg:bg-transparent shadow-md lg:shadow-none p-4 lg:p-0 transition-all duration-300 ease-in-out`}
+          } lg:flex flex-col lg:flex-row gap-3 lg:gap-6 items-center absolute lg:static top-16 left-0 w-full lg:w-auto bg-white lg:bg-transparent shadow-md lg:shadow-none p-4 lg:p-0 transition-all duration-300 ease-in-out`}
         >
           <NavLink
             to="/home"
