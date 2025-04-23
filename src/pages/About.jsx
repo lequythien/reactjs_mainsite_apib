@@ -1,28 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ThemeTitle from "../theme/ThemeTitle";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
-    <div className="max-w-screen-xl mx-auto px-4 py-10">
-      <div>
-        <h1 className="text-4xl font-bold text-center mt-10">
-          Giới thiệu về Công ty cổ phần môi giới bảo hiểm An Phúc
-        </h1>
-        <p className="text-lg mt-4">
-          Công ty cổ phần môi giới bảo hiểm An Phúc (APIB) được thành lập theo
-          giấy phép kinh doanh số 96/KD/KDBH do Bộ tài chính cấp ngày
-          03/04/2024, Giấy phép điều chỉnh số 96/GPĐC1/KDBH do Bộ tài chính cấp
-          ngày 21/02/2025.
-        </p>
-        <p className="text-lg mt-4">
-          Chúng tôi mong muốn phát triển bảo hiểm công nghệ (InsurTech) tại Việt
-          Nam cũng như đưa bảo hiểm tới gần người tiêu dùng qua việc tái định
-          hình bức tranh thị trường bảo hiểm bằng InsurTech. Để thực hiện được
-          sứ mệnh này, chúng tôi dự định phát triển một nền tảng số (InsureGo)
-          mà tại đó người mua bảo hiểm có thể mua sắm bảo hiểm một cách nhanh
-          chóng và dễ dàng.
-        </p>
-      </div>
-    </div>
+    <ThemeTitle title="Giới thiệu về Công ty cổ phần môi giới bảo hiểm An Phúc">
+      <p>
+        Công ty cổ phần môi giới bảo hiểm An Phúc (APIB) được thành lập theo
+        Giấy phép thành lập và hoạt động số 96/GP/KDBH do Bộ Tài chính cấp ngày
+        03/04/2024, và Giấy phép điều chỉnh số 96/GPĐC1/KDBH do Bộ Tài chính cấp
+        ngày 21/02/2025.
+      </p>
+      <p>
+        Với tầm nhìn tiên phong trong lĩnh vực bảo hiểm công nghệ (InsurTech)
+        tại Việt Nam, chúng tôi cam kết đưa bảo hiểm đến gần hơn với người tiêu
+        dùng thông qua việc tái định hình thị trường bảo hiểm bằng các giải pháp
+        công nghệ tiên tiến. Để hiện thực hóa sứ mệnh này, An Phúc đang phát
+        triển nền tảng số InsureGo, cho phép khách hàng dễ dàng tiếp cận và mua
+        sắm các sản phẩm bảo hiểm một cách nhanh chóng, tiện lợi.
+      </p>
+    </ThemeTitle>
   );
 };
 

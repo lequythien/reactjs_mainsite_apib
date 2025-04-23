@@ -22,7 +22,7 @@ const newsData = [
 const Information = () => {
   return (
     <section className="bg-white py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         {/* Tiêu đề */}
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#1A2258] leading-tight md:leading-[51px] w-full md:w-[580px] mx-auto">
@@ -36,7 +36,10 @@ const Information = () => {
         {/* Danh sách tin tức */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
           {newsData.map((item, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden">
+            <div
+              key={index}
+              className="bg-white rounded-lg overflow-hidden shadow-md"
+            >
               {item.pdfFile ? (
                 <Link
                   to={`/pdf/${item.pdfFile}`}
@@ -47,7 +50,7 @@ const Information = () => {
                     alt={item.title}
                     className="w-full h-48 sm:h-56 md:h-64 object-cover"
                   />
-                  <div className="py-4">
+                  <div className="p-4">
                     <h3 className="text-base sm:text-lg font-bold text-[#272c65] leading-snug mb-2 line-clamp-2">
                       {item.title}
                     </h3>
@@ -63,7 +66,7 @@ const Information = () => {
                     alt={item.title}
                     className="w-full h-48 sm:h-56 md:h-64 object-cover"
                   />
-                  <div className="py-4">
+                  <div className="p-4">
                     <h3 className="text-base sm:text-lg font-bold text-[#272c65] leading-snug mb-2 line-clamp-2">
                       {item.title}
                     </h3>
