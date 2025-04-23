@@ -9,7 +9,7 @@ const ThemeTitle = ({ title, children }) => {
       {/* Tiêu đề */}
       <div className="max-w-4xl mx-auto mb-6 sm:mb-8 lg:mb-10">
         <div className="bg-[#FFF6FA] border-2 border-[#1A2258] rounded-lg px-4 sm:px-6 py-3 sm:py-4 shadow-[0_4px_0_0_#1A2258] transition-all duration-300">
-          <h1 className="text-sm sm:text-base md:text-lg font-extrabold text-[#1A2258] uppercase tracking-tight leading-tight text-center sm:text-left">
+          <h1 className="text-sm sm:text-base md:text-lg font-extrabold text-[#1A2258] uppercase tracking-tight leading-tight text-left">
             {title}
           </h1>
         </div>

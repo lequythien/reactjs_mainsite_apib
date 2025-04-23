@@ -14,11 +14,11 @@ const Footer = () => {
             <p className="text-[14px] font-medium text-[#2C2D2F]">
               SĐT:
               <a
-                href="tel:0889996688"
+                href="tel: 0123456789"
                 className="font-semibold text-primaryPink ml-1 hover:underline"
-                aria-label="Call us at 088 999 6688"
+                aria-label="Call us at 0123456789"
               >
-                088 999 6688
+                0123456789
               </a>
             </p>
             <p className="text-[14px] font-medium text-[#2C2D2F]">
@@ -32,7 +32,10 @@ const Footer = () => {
               </a>
             </p>
             <p className="text-[15px] font-medium text-[#2C2D2F]">
-              Mã số doanh nghiệp 0110707592
+              Mã số doanh nghiệp
+              <span className="text-primaryPink font-semibold ml-1">
+                0110707592
+              </span>
             </p>
             <p className="text-[15px] font-medium text-[#2C2D2F]">
               Địa chỉ: Số 141 Hoàng Hoa Thám, P. Ngọc Hà, Q. Ba Đình, Tp. Hà Nội
