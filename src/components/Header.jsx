@@ -17,7 +17,7 @@ const Header = () => {
             Việt.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="bg-[#232862] font-extrabold text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 text-sm md:text-base">
+            <button className="mt-3 lg:mt-0 bg-[#232862] hover:bg-[#1b1f4a] shadow-none hover:shadow-md font-bold text-white px-8 py-2 sm:py-2 lg:py-2 rounded-full transition-all duration-200 text-xs sm:text-sm lg:text-base">
               TÌM HIỂU THÊM
             </button>
           </div>
