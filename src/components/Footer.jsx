@@ -14,11 +14,11 @@ const Footer = () => {
             <p className="text-[14px] font-medium text-[#2C2D2F]">
               SĐT:
               <a
-                href="tel: 0123456789"
+                href="tel: 0889996688"
                 className="font-semibold text-primaryPink ml-1 hover:underline"
-                aria-label="Call us at 0123456789"
+                aria-label="Call us at 088 999 6688"
               >
-                0123456789
+                088 999 6688
               </a>
             </p>
             <p className="text-[14px] font-medium text-[#2C2D2F]">
