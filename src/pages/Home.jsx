@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import DigitalPlatform from "../components/DigitalPlatform";
-import News from "../components/News";
+import Information from "../components/Information";
 import OurPartners from "../components/OurPartners";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Header />
       <DigitalPlatform />
-      <News />
+      <Information />
       <OurPartners />
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/images/logo_apib.png";
+import Logo from "../assets/images/logo_full_white.png";
 import { NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white">
+    <header className="bg-primaryPink">
       <div className="flex items-center justify-between py-4 px-4 max-w-screen-xl mx-auto">
         {/* Logo */}
         <NavLink to="/" className="flex items-center">
@@ -21,7 +21,7 @@ const Navbar = () => {
 
         {/* Menu Icon Mobile */}
         <button
-          className="lg:hidden text-[#2c2d66] text-2xl focus:outline-none"
+          className="lg:hidden text-white text-2xl focus:outline-none"
           onClick={toggleMenu}
         >
           {isOpen ? <IoMdClose /> : <FiMenu />}
@@ -35,28 +35,28 @@ const Navbar = () => {
         >
           <NavLink
             to="/home"
-            className="text-[#2c2d66] font-extrabold hover:text-blue-600 text-xs sm:text-sm lg:text-base transition-colors duration-200"
+            className="text-black lg:text-white font-extrabold hover:text-blue-400 text-xs sm:text-sm lg:text-base transition-colors duration-200"
             onClick={() => setIsOpen(false)}
           >
             TRANG CHỦ
           </NavLink>
           <NavLink
             to="/about"
-            className="text-[#2c2d66] font-extrabold hover:text-blue-600 text-xs sm:text-sm lg:text-base transition-colors duration-200"
+            className="text-black lg:text-white font-extrabold hover:text-blue-400 text-xs sm:text-sm lg:text-base transition-colors duration-200"
             onClick={() => setIsOpen(false)}
           >
             GIỚI THIỆU
           </NavLink>
           <NavLink
             to="/news"
-            className="text-[#2c2d66] font-extrabold hover:text-blue-600 text-xs sm:text-sm lg:text-base transition-colors duration-200"
+            className="text-black lg:text-white font-extrabold hover:text-blue-400 text-xs sm:text-sm lg:text-base transition-colors duration-200"
             onClick={() => setIsOpen(false)}
           >
             TIN TỨC
           </NavLink>
           <NavLink
-            to="/recruitment"
-            className="text-[#2c2d66] font-extrabold hover:text-blue-600 text-xs sm:text-sm lg:text-base transition-colors duration-200"
+            to="#"
+            className="text-black lg:text-white font-extrabold hover:text-blue-400 text-xs sm:text-sm lg:text-base transition-colors duration-200"
             onClick={() => setIsOpen(false)}
           >
             TUYỂN DỤNG

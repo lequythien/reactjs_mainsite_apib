@@ -27,6 +27,11 @@
   color: rgb(237 3 124 / var(--tw-text-opacity, 1));
 }
 
+.bg-primaryPink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 3 124 / var(--tw-bg-opacity, 1));
+}
+
 .bg-primaryNavy {
   --tw-bg-opacity: 1;
   background-color: rgb(39 44 101 / var(--tw-bg-opacity, 1));
