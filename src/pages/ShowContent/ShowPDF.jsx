@@ -8,7 +8,7 @@ const ShowPDF = () => {
 
   return (
     <ThemeTitle title="Công ty cổ phần môi giới bảo hiểm An Phúc công bố Báo cáo tài chính đã kiểm toán năm 2024">
-      <div className="w-full h-[60vh] sm:h-[70vh] lg:h-[80vh] bg-gray-100 rounded-lg overflow-hidden relative">
+      <div className="w-full h-[60vh] sm:h-[70vh] lg:h-[80vh] bg-gray-100 rounded-lg">
         {isMobile ? (
           <div className="flex flex-col items-center justify-center h-full text-center p-4">
             <p className="text-gray-600 mb-4">
